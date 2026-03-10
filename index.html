@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو المطعم</title>
+    <style>
+        /* تنسيق الألوان والخطوط */
+        body {
+            background-color: #000; /* خلفية سوداء */
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            border-left: 10px solid #f39c12; /* خط برتقالي جانبي */
+            padding-right: 20px;
+        }
+
+        h1 {
+            color: #f39c12;
+            text-transform: uppercase;
+            font-size: 3rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #f39c12;
+            display: inline-block;
+        }
+
+        .section-title {
+            color: #f39c12;
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed #444;
+            padding-bottom: 5px;
+        }
+
+        .item-name {
+            font-size: 1.2rem;
+        }
+
+        .item-price {
+            color: #f39c12;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* تنسيق الصور الدائرية */
+        .image-container {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .food-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #f39c12;
+            object-fit: cover;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FOOD MENU</h1>
+
+        <div class="clearfix">
+            <div class="image-container">
+                <!-- استبدلي الرابط برابط صورة حقيقية -->
+                <img src="https://share.google/xtD4CXBym0J0SBIhF" alt="طعام" class="food-img">
+                <img src="https://share.google/0VmtjZiYqDGtPgpzl" alt="طعام" class="food-img">
+            </div>
+
+            <div class="section-title">الأطباق الرئيسية</div>
+            
+            <div class="menu-item">
+                <span class="item-name">• Chicken Fried Rice</span>
+                <span class="item-price">$30</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">• Spicy Chicken</span>
+                <span class="item-price">$30</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">• Ramen Noodle</span>
+                <span class="item-price">$30</span>
+            </div>
+        </div>
+
+        <div class="section-title">المقبلات</div>
+        <div class="menu-item">
+            <span class="item-name">• Potato Wedges</span>
+            <span class="item-price">$30</span>
+        </div>
+        <div class="menu-item">
+            <span class="item-name">• Fried Fries</span>
+            <span class="item-price">$30</span>
+        </div>
+
+    </div>
+
+</body>
+<!-- شريط التنقل العلوي -->
+<nav style="background: rgba(0,0,0,0.9); padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid #f39c12;">
+    <a href="index.html" style="color: #f39c12; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الرئيسية</a>
+    <a href="noodles.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">النودلز</a>
+    <a href="special.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الأطباق الخاصة</a>
+    <a href="drinks.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">المشروبات</a>
+</nav>
+
+</html>

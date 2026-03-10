@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منيو النودلز - صفحة 3</title>
+    <style>
+        body { 
+            background-color: #013237; /* اللون الأخضر الداكن الخلفية */
+            color: #fff; 
+            font-family: 'Segoe UI', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            overflow-x: hidden;
+        }
+
+        /* الشكل المنحني الأصفر في الأعلى */
+        .header-bg {
+            background-color: #f39c12;
+            height: 250px;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+            text-align: center;
+            padding-top: 40px;
+            position: relative;
+        }
+
+        .header-title {
+            color: #013237;
+            font-size: 60px;
+            font-weight: 900;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .noodle-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* تنسيق الصور الدائرية مع ظل أبيض كما في الملف */
+        .noodle-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            flex-shrink: 0;
+        }
+
+        .noodle-info h3 {
+            color: #fff;
+            font-size: 22px;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+
+        .noodle-info p {
+            color: #bdc3c7;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .price-tag {
+            background-color: #fff;
+            color: #013237;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        /* قسم التوصيل */
+        .delivery-section {
+            text-align: center;
+            background: #fff;
+            color: #013237;
+            width: 250px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-bg">
+        <div style="color: #013237; font-size: 20px; font-weight: bold;">PAUCEK AND LAGE</div>
+        <h1 class="header-title">NOODLE</h1>
+        <div style="color: #013237; font-size: 25px; letter-spacing: 5px;">. MENU .</div>
+    </div>
+
+    <div class="container">
+        <!-- طبق 1 -->
+        <div class="noodle-item">
+            <img src="https://images.unsplash.com" class="noodle-img">
+            <div class="noodle-info">
+                <h3>VEGETARIAN SEAWEED SOUP</h3>
+                <p>Tofu, Egg, Seaweed, Fried Shallots, Chinese Mushrooms</p>
+                <div class="price-tag">$22</div>
+            </div>
+        </div>
+
+        <!-- طبق 2 -->
+        <div class="noodle-item">
+            <img src="https://images.unsplash.com" class="noodle-img">
+            <div class="noodle-info">
+                <h3>PRAWN LAKSA WITH RICE NOODLES</h3>
+                <p>Prawn, Peppers, Chilli Paste, Fried Shallots, Coconut Milk, Madras Curry</p>
+                <div class="price-tag">$22</div>
+            </div>
+        </div>
+
+        <!-- طبق 3 -->
+        <div class="noodle-item">
+            <img src="https://images.unsplash.com" class="noodle-img">
+            <div class="noodle-info">
+                <h3>CHICKEN & PRAWN WONTONS</h3>
+                <p>Chicken And Prawn Wontons, Chinese Cabbage, Chinese Mushrooms, Fried Shallots.</p>
+                <div class="price-tag">$22</div>
+            </div>
+        </div>
+
+        <!-- طبق 4 -->
+        <div class="noodle-item">
+            <img src="https://share.google/images/b5kEhlkpwE2UANV5x" class="noodle-img">
+            <div class="noodle-info">
+                <h3>REGULAR UDON NOODLES</h3>
+                <p>Peppers, Egg, Chicken, Coconut Milk, Madras Curry</p>
+                <div class="price-tag">$22</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="delivery-section">
+        DELIVERY ORDER <br>
+        <span style="font-size: 22px;">+1234567890</span>
+    </div>
+
+</body>
+<!-- شريط التنقل العلوي -->
+<nav style="background: rgba(0,0,0,0.9); padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid #f39c12;">
+    <a href="index.html" style="color: #f39c12; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الرئيسية</a>
+    <a href="noodles.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">النودلز</a>
+    <a href="special.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الأطباق الخاصة</a>
+    <a href="drinks.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">المشروبات</a>
+</nav>
+
+</html>

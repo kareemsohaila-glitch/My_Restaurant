@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منيو المشروبات - صفحة 6</title>
+    <style>
+        body { 
+            background-color: #f9f9f9; /* خلفية فاتحة تشبه الورق */
+            background-image: url('https://www.transparenttextures.com'); /* ملمس ورقي */
+            color: #333; 
+            font-family: 'Times New Roman', Times, serif; 
+            margin: 0; padding: 0;
+        }
+
+        .drinks-container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 40px;
+            border: 1px solid #ddd;
+            position: relative;
+        }
+
+        /* عنوان الصفحة بخط يدوي */
+        .main-title {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 80px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .category-header {
+            font-size: 28px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            display: inline-block;
+            padding: 5px 20px;
+        }
+
+        .drink-item {
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: 15px auto;
+            font-size: 20px;
+        }
+
+        .drink-price {
+            font-weight: bold;
+        }
+
+        /* رسومات توضيحية (أيقونات بديلة للرسم اليدوي) */
+        .sketch-img {
+            position: absolute;
+            width: 150px;
+            opacity: 0.8;
+        }
+        
+        .cocktail-img { top: 50px; left: -100px; transform: rotate(-15deg); }
+        .coffee-img { bottom: 100px; right: -100px; transform: rotate(15deg); }
+
+        .footer-address {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="drinks-container">
+        <!-- رسومات جانبية تشبه المنيو الأصلي -->
+        <img src="https://cdn-icons-png.flaticon.com" class="sketch-img cocktail-img" alt="cocktail sketch">
+        <img src="c:\Users\PowerTech\Downloads\مشروبات" class="sketch-img coffee-img" alt="coffee sketch">
+
+        <h1 class="main-title">Drinks</h1>
+
+        <!-- قسم الكوكتيلات (صفحة 6) -->
+        <div class="category-header">COCKTAILS</div>
+        <div class="drink-item"><span>Martini</span> <span class="drink-price">$21</span></div>
+        <div class="drink-item"><span>Mojito</span> <span class="drink-price">$20</span></div>
+        <div class="drink-item"><span>Old Fashioned</span> <span class="drink-price">$25</span></div>
+        <div class="drink-item"><span>Negroni</span> <span class="drink-price">$15</span></div>
+
+        <!-- قسم القهوة والشاي (صفحة 6) -->
+        <div class="category-header">COFFEE & TEA</div>
+        <div class="drink-item"><span>Espresso</span> <span class="drink-price">$6</span></div>
+        <div class="drink-item"><span>Cappuccino</span> <span class="drink-price">$6</span></div>
+        <div class="drink-item"><span>Latte</span> <span class="drink-price">$9</span></div>
+        <div class="drink-item"><span>Iced Tea</span> <span class="drink-price">$5</span></div>
+
+        <!-- قسم النبيذ أو المشروبات الفاخرة -->
+        <div class="category-header">WINES</div>
+        <div class="drink-item"><span>Cabernet Sauvignon</span> <span class="drink-price">$40</span></div>
+        <div class="drink-item"><span>Chardonnay</span> <span class="drink-price">$25</span></div>
+
+        <div class="footer-address">
+            123 Anywhere St., Any City, ST 12345
+        </div>
+    </div>
+
+</body>
+<!-- شريط التنقل العلوي -->
+<nav style="background: rgba(0,0,0,0.9); padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid #f39c12;">
+    <a href="index.html" style="color: #f39c12; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الرئيسية</a>
+    <a href="noodles.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">النودلز</a>
+    <a href="special.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الأطباق الخاصة</a>
+    <a href="drinks.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">المشروبات</a>
+</nav>
+
+</html>

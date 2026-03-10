@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>منيو الطعام - صفحة 1 و 2</title>
+    <style>
+        body { background-color: #000; color: #fff; font-family: 'Arial', sans-serif; margin: 0; padding: 0; }
+        
+        /* التصميم البرتقالي الجانبي */
+        .sidebar-orange { position: fixed; right: 0; top: 0; width: 35%; height: 100%; background: #f39c12; z-index: -1; clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%); }
+
+        .container { width: 90%; max-width: 1000px; margin: auto; padding: 50px 20px; display: flex; flex-wrap: wrap; }
+
+        .menu-content { flex: 1; min-width: 300px; }
+        
+        .header-title { font-size: 80px; color: #fff; line-height: 0.8; margin-bottom: 50px; font-weight: 900; }
+        .header-title span { color: #f39c12; display: block; }
+
+        .category-title { color: #f39c12; font-size: 35px; margin: 40px 0 20px; font-weight: bold; border-right: 5px solid #f39c12; padding-right: 15px; }
+
+        .menu-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 20px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .item-price { color: #f39c12; font-weight: bold; }
+
+        /* حاوية الصور الدائرية */
+        .images-side { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 30px; margin-top: 50px; }
+        .circle-img { width: 220px; height: 220px; border-radius: 50%; border: 8px solid #f39c12; object-fit: cover; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+
+        .badge-price { background: #fff; color: #000; padding: 5px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 10px; display: inline-block; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar-orange"></div>
+
+    <div class="container">
+        <!-- المنيو النصي -->
+        <div class="menu-content">
+            <div class="header-title">FOOD <span>MENU</span></div>
+
+            <div class="category-title">FOOD (الأطباق)</div>
+            <div class="menu-item"><span>• Chicken Fried Rice</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Spicy Chicken</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Ramen Noodle</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Tuna Sandwich</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Teriyaki Rice Bowl</span> <span class="item-price">$35</span></div>
+
+            <div class="category-title">SNACK (المقبلات)</div>
+            <div class="menu-item"><span>• Potato Wedges</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Fried Fries</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Beef Burger</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Chicken Nuggets</span> <span class="item-price">$30 / $35</span></div>
+
+            <div class="category-title">DRINK (المشروبات)</div>
+            <div class="menu-item"><span>• Summer Sour</span> <span class="item-price">$30 / $35</span></div>
+            <div class="menu-item"><span>• Mineral Water</span> <span class="item-price">$30 / $35</span></div>
+        </div>
+
+        <!-- الصور الجانبية -->
+        <div class="images-side">
+            <img src="https://share.google/images/stppIS2Us9DYj8Tnz" class="circle-img" alt="Chicken Dish">
+            <img src="https://share.google/images/tsZq0vKxM5BUp5rEy" class="circle-img" alt="Salad Bowl">
+            <img src="https://share.google/images/0VmtjZiYqDGtPgpzl" class="circle-img" alt="Pancakes">
+        </div>
+    </div>
+
+</body>
+<!-- شريط التنقل العلوي -->
+<nav style="background: rgba(0,0,0,0.9); padding: 20px; text-align: center; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid #f39c12;">
+    <a href="index.html" style="color: #f39c12; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الرئيسية</a>
+    <a href="noodles.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">النودلز</a>
+    <a href="special.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">الأطباق الخاصة</a>
+    <a href="drinks.html" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px;">المشروبات</a>
+</nav>
+
+</html>
